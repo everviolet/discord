@@ -52,19 +52,19 @@
 
 ```css
 /* summer */
-@import url("https://raw.githubusercontent.com/everviolet/discord/main/dist/dist/evergarden-summer.theme.css");
+@import url("https://everviolet.github.io/discord/themes/evergarden-summer.theme.css");
 /* spring */
-@import url("https://raw.githubusercontent.com/everviolet/discord/main/dist/dist/evergarden-spring.theme.css");
+@import url("https://everviolet.github.io/discord/themes/evergarden-spring.theme.css");
 /* fall */
-@import url("https://raw.githubusercontent.com/everviolet/discord/main/dist/dist/evergarden-fall.theme.css");
+@import url("https://everviolet.github.io/discord/themes/evergarden-fall.theme.css");
 /* winter */
-@import url("https://raw.githubusercontent.com/everviolet/discord/main/dist/dist/evergarden-winter.theme.css");
+@import url("https://everviolet.github.io/discord/themes/evergarden-winter.theme.css");
 
 /* You can also append colors to customize the accent, e.g. */
 /* winter (pink accent)*/
-@import url("https://raw.githubusercontent.com/everviolet/discord/main/dist/dist/evergarden-winter-pink.theme.css");
+@import url("https://everviolet.github.io/discord/themes/evergarden-winter-pink.theme.css");
 /* spring (orange accent) */
-@import url("https://raw.githubusercontent.com/everviolet/discord/main/dist/dist/evergarden-spring-orange.theme.css");
+@import url("https://everviolet.github.io/discord/themes/evergarden-spring-orange.theme.css");
 ```
 
 #### [Stylus](https://github.com/openstyles/stylus)
@@ -88,9 +88,9 @@
   MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/@import#importing_css_rules_conditional_on_media_queries)).
 
   ```css
-  @import url("https://raw.githubusercontent.com/everviolet/discord/main/dist/dist/evergarden-winter.theme.css")
+  @import url("https://everviolet.github.io/discord/themes/evergarden-winter.theme.css")
   (prefers-color-scheme: dark);
-  @import url("https://raw.githubusercontent.com/everviolet/discord/main/dist/dist/evergarden-summer.theme.css")
+  @import url("https://everviolet.github.io/discord/themes/evergarden-summer.theme.css")
   (prefers-color-scheme: light);
   ```
 
