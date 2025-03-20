@@ -16,9 +16,10 @@
   ],
   "private": true,
   "scripts": {
-    "build": "mkdir -p dist/dist && sass -I node_modules --no-charset --no-source-map src:dist/dist",
-    "release": "node build.js && mkdir -p dist/dist && sass -I node_modules --style=compressed --no-charset --no-source-map src:dist/dist && rm src/evergarden-*-*.theme.scss",
-    "watch": "mkdir -p dist/dist && sass -I node_modules --no-charset --no-source-map src:dist/dist -w",
+    "dev": "mkdir -p dist/themes && sass -I node_modules --no-charset --no-source-map src:dist/themes",
+    "build": "mkdir -p dist/themes && sass -I node_modules --style=compressed --no-charset --no-source-map src:dist/themes",
+    "release": "node build.js && yarn build && rm src/evergarden-*-*.theme.scss",
+    "watch": "mkdir -p dist/themes && sass -I node_modules --no-charset --no-source-map src:dist/themes -w",
     "prepare": "husky"
   },
   "devDependencies": {
