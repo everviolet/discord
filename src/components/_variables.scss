@@ -134,10 +134,10 @@ html {
   --chat-input-container-background: #{$base};
   --border-normal: #{$crust};
   --border-subtle: #{$base} !important;
-  --background-modifier-hover: #{adjust-color($text, $alpha: -0.85)};
-  --background-modifier-selected: #{adjust-color($text, $alpha: -0.8)};
-  --background-modifier-accent: #{adjust-color($text, $alpha: -0.74)};
-  --background-modifier-active: #{adjust-color($text, $alpha: -0.83)};
+  --background-modifier-hover: #{$surface0};
+  --background-modifier-selected: #{$surface1};
+  --background-modifier-accent: #{$surface1};
+  --background-modifier-active: #{$surface0};
   --background-mod-subtle: #{$surface0} !important;
   --custom-channel-members-bg: #{$mantle};
   --info-positive-background: #{adjust-color($green, $alpha: -0.85)};
@@ -310,8 +310,8 @@ html {
   --background-message-highlight: #{adjust-color($brand, $alpha: -0.92)};
   --background-message-highlight-hover: #{adjust-color($brand, $alpha: -0.94)};
 
-  --channels-default: #{darken($subtext0, 5%)} !important;
-  --channel-icon: #{darken($subtext0, 5%)} !important;
+  --channels-default: #{$subtext0} !important;
+  --channel-icon: #{$subtext0} !important;
   --icon-tertiary: #{darken($subtext0, 5%)} !important;
   --channel-text-area-placeholder: #{adjust-color($text, $alpha: -0.5)};
   --channeltextarea-background: #{$mantle};
@@ -350,7 +350,7 @@ html {
   --focus-primary: #{$brand};
 
   --interactive-normal: #{$text} !important;
-  --interactive-muted: #{adjust-color($text, $alpha: -0.7)};
+  --interactive-muted: #{$overlay1};
   --interactive-hover: #{$text};
   --interactive-active: #{$text};
 
