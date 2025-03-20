@@ -9,13 +9,22 @@
 **/
 
 @use "sass:math";
-@use "@catppuccin/palette/scss/latte" as *;
+@use "shades/summer" as *;
 @use "@catppuccin/highlightjs/sass/theme";
 
 $brand: $blue;
 
+$lavender: $pink;
+$rosewater: $pink;
+$mauve: $purple;
+$sky: $skye;
+$teal: $aqua;
+$maroon: $red;
+$peach: $orange;
+$sapphire: $skye;
+
 :root .theme-dark {
-  @import "@catppuccin/palette/scss/mocha";
+  @import "shades/winter";
   @import "components/lightfix";
 
   nav[class*="guilds-"].theme-dark {

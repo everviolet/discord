@@ -2,27 +2,21 @@ const fs = require("fs").promises;
 const path = require("path");
 
 const sourceFiles = [
-  "src/catppuccin-frappe.theme.scss",
-  "src/catppuccin-latte.theme.scss",
-  "src/catppuccin-macchiato.theme.scss",
-  "src/catppuccin-mocha.theme.scss",
+  "src/evergarden-winter.theme.scss",
+  "src/evergarden-fall.theme.scss",
+  "src/evergarden-spring.theme.scss",
 ];
 
 const accents = [
-  "rosewater",
-  "flamingo",
-  "pink",
-  "mauve",
   "red",
-  "maroon",
-  "peach",
+  "orange",
   "yellow",
   "green",
-  "teal",
-  "sky",
-  "sapphire",
+  "aqua",
+  "skye",
   "blue",
-  "lavender",
+  "purple",
+  "pink",
 ];
 
 (async () => {
