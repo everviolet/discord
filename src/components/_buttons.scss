@@ -157,3 +157,12 @@ div[class^="layerContainer"] button[class^="backButton"][class*="lookBlank"] {
 .vcd-screen-picker-radio[data-checked=true] > [class^="defaultColor_"] {
   color: $crust;
 }
+
+// darken close button and matching 'esc' text
+[class^="closeButton"],
+[class^="closeButton"]:hover {
+  color: $overlay0;
+  & + [class^="keybind"] {
+    color: $overlay0;
+  }
+}
