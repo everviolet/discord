@@ -1,0 +1,11 @@
+[aria-label="User Settings"]
+> [aria-label="Click to copy version"]
+> [class^="info_"]::before {
+  content: "Evergarden " + $dcommit;
+  color: var(--text-muted);
+  font-family: var(--font-primary);
+  font-size: 12px;
+  line-height: 1.3333333333333333;
+  font-weight: 400;
+  text-transform: none;
+}
