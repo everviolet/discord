@@ -367,3 +367,8 @@ div[class*="actions_"] {
 .link__972a0 {
   color: var(--header-secondary);
 }
+
+// is streaming status
+path[fill="#43a25a"] {
+  fill: $green;
+}
