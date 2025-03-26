@@ -362,6 +362,11 @@ html {
   --__spoiler-warning-background-color: #{lighten($surface2, 5%)};
 }
 
+.visual-refresh.theme-dark,
+.visual-refresh.theme-light {
+  --text-feedback-positive: #{$green};
+}
+
 ::selection {
   background-color: #{rgba($brand, 0.6)};
 }
