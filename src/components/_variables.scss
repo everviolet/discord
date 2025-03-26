@@ -93,6 +93,8 @@ html {
   --brand-95a: #{adjust-color($brand, $alpha: -0.05)};
 }
 
+.visual-refresh.theme-dark,
+.visual-refresh.theme-light,
 .theme-dark,
 .theme-light {
   --header-primary: #{$text} !important;
