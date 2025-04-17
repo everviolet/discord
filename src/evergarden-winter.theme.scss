@@ -25,12 +25,20 @@ $maroon: $red;
 $peach: $orange;
 $sapphire: $skye;
 
-:root .theme-light {
-  @import "shades/summer";
-  @import "components/lightfix";
+.theme-dark,
+.visual-refresh.theme-dark,
+.visual-refresh .theme-dark {
+  @import "components/contrast-dark";
+  @import "theme";
+
+  @include theme.highlights("mocha");
 }
 
-@import "theme";
-.theme-dark {
-  @include theme.highlights("mocha");
+.theme-light,
+.visual-refresh.theme-light,
+.visual-refresh .theme-light {
+  @import "shades/summer";
+
+  @import "components/tweak-light";
+  @import "theme";
 }

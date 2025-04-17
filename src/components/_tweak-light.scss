@@ -1,0 +1,5 @@
+& {
+  // globally flip to white (light mode uses in places where contrast is good)
+  --white: #{$crust} !important;
+  --white-500: #{$crust} !important;
+}
