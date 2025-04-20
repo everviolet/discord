@@ -30,14 +30,14 @@ $sapphire: $snow;
 .visual-refresh .theme-dark {
   @import "@everviolet/palette/scss/winter";
 
-  @import "components/contrast-dark";
+  @import "components/tweaks/dark";
   @import "theme";
 }
 
 .theme-light,
 .visual-refresh.theme-light,
 .visual-refresh .theme-light {
-  @import "components/tweak-light";
+  @import "components/tweaks/light";
   @import "theme";
 
   @include theme.highlights("latte");

@@ -19,6 +19,9 @@ $bgImg: (
   "emojiRemove": (
     icon: $xIcon,
   ),
+  "revokeInvite": (
+    icon: $xIcon,
+  ),
 );
 
 @each $class, $icon in $bgImg {

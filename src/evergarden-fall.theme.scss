@@ -28,7 +28,7 @@ $sapphire: $snow;
 .theme-dark,
 .visual-refresh.theme-dark,
 .visual-refresh .theme-dark {
-  @import "components/contrast-dark";
+  @import "components/tweaks/dark";
   @import "theme";
 
   @include theme.highlights("macchiato");
@@ -39,6 +39,6 @@ $sapphire: $snow;
 .visual-refresh .theme-light {
   @import "@everviolet/palette/scss/summer";
 
-  @import "components/tweak-light";
+  @import "components/tweaks/light";
   @import "theme";
 }

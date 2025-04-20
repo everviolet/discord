@@ -1,9 +1,11 @@
 @import "components/variables";
 @import "components/debug";
 
-@import "components/icons-bgImg";
-@import "components/icons-imgContent";
-@import "components/icons-svgBg";
-@import "components/icons-svgColor";
+@import "components/icons/bgImg";
+@import "components/icons/imgContent";
+@import "components/icons/svgBg";
+@import "components/icons/svgColor";
+
+@import "components/sidebar";
 
 @import "components/details";
