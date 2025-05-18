@@ -25,7 +25,6 @@ $maroon: $red;
 $peach: $orange;
 $sapphire: $snow;
 
-.theme-dark,
 .visual-refresh.theme-dark,
 .visual-refresh .theme-dark {
   @import "components/tweaks/dark";
@@ -34,7 +33,6 @@ $sapphire: $snow;
   @include theme.highlights("macchiato");
 }
 
-.theme-light,
 .visual-refresh.theme-light,
 .visual-refresh .theme-light {
   @import "@everviolet/palette/scss/summer";
