@@ -12,6 +12,11 @@
   resolved "https://registry.yarnpkg.com/@catppuccin/palette/-/palette-1.7.1.tgz#c7cd165dcc1fc025a05ac138a4749b2279cf115e"
   integrity sha512-aRc1tbzrevOTV7nFTT9SRdF26w/MIwT4Jwt4fDMc9itRZUDXCuEDBLyz4TQMlqO9ZP8mf5Hu4Jr6D03NLFc6Gw==
 
+"@everviolet/palette@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@everviolet/palette/-/palette-0.1.0.tgz#11c94dfbf6009d531dac777a86d4109195329025"
+  integrity sha512-neK23gLIFnXUd76CNMjsvH5ZSfk8vPCDEGW6ufP5sv3jF3XgNOChEPRYa+VfNDfdGqXTzXOOiy/2D8jl3iXApg==
+
 ansi-escapes@^7.0.0:
   version "7.0.0"
   resolved "https://registry.yarnpkg.com/ansi-escapes/-/ansi-escapes-7.0.0.tgz#00fc19f491bbb18e1d481b97868204f92109bfe7"

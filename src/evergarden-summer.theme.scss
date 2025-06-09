@@ -11,7 +11,7 @@
 $dcommit: "dev";
 
 @use "sass:math";
-@use "shades/summer" as *;
+@use "@everviolet/palette/scss/summer" as *;
 @use "@catppuccin/highlightjs/sass/theme";
 
 $brand: $blue;
@@ -28,7 +28,7 @@ $sapphire: $snow;
 .theme-dark,
 .visual-refresh.theme-dark,
 .visual-refresh .theme-dark {
-  @import "shades/winter";
+  @import "@everviolet/palette/scss/winter";
 
   @import "components/contrast-dark";
   @import "theme";
